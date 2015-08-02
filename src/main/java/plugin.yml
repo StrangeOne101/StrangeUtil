@@ -1,0 +1,30 @@
+name: StrangeUtil
+main: com.strangeone101.strangeutil.StrangeUtil
+description: Plugin used by StrangeOne101 for a variety of things
+version: 1.1
+author: StrangeOne101
+commands:
+  msg:
+    description: Message another user privately
+    usage: /msg <user> <message>
+    aliases: [message, tell]
+  strangedebug:
+    usage: /strangedebug
+  world:
+    description: Change worlds
+    usage: /world <world> or /world list
+  r:
+    description: Reply to last message
+    usage: /r <message>
+    aliases: [reply]
+  pwarp:
+    description: Warp to private warp areas
+    usage: /pwarp help
+    aliases: [pw, privatewarp, privwarp]
+  mount:
+    description: Ride other players and mobs!
+    usage: /mount [player]
+permissions:
+  strangeutil.skulls:
+    description: Gives a skull.
+    default: true
